@@ -31,11 +31,8 @@ public class LoginStepDefs {
     @When("the user enters the store manager information")
     public void the_user_enters_the_store_manager_information() {
         // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        System.out.println("I login an store manager");
     }
-
-
-
 
 
 }
