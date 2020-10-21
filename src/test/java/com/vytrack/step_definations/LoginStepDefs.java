@@ -1,4 +1,4 @@
-package com.vytruck.step_definations;
+package com.vytrack.step_definations;
 
 import io.cucumber.java.en.*;
 
@@ -9,6 +9,7 @@ public class LoginStepDefs {
         Thread.sleep(5000);
         System.out.println("I open browser and navigate to vytrack login page");
     }
+
 
     @When("the user enters the driver information")
     public void the_user_enters_the_driver_information() throws InterruptedException {
